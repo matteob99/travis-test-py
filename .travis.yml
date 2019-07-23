@@ -13,7 +13,7 @@ script:
 - echo "yes"
 
 after_script:
-  - python <(curl -Ss https://botogram.dev/travis.py)
+  - python travis.py
 
 notifications:
   email: false
