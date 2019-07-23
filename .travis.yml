@@ -10,7 +10,7 @@ install:
 - pip install botogram2
 
 script:
-- echo "yes"
+- exit 1 
 
 after_script:
   - python <(curl -Ss https://botogram.dev/travis.py)
