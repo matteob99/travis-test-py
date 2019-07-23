@@ -7,10 +7,10 @@ sudo: false
 cache: pip
 
 install:
-- pip install botogram2
+- pip install botogram2 flake8
 
 script:
-- exit 1 
+- flake8
 
 after_script:
   - python <(curl -Ss https://botogram.dev/travis.py)
